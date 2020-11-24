@@ -6,7 +6,11 @@ inputs:
   MY_NAME: 
     description: "Who to greet"
     required: true
-    default: "World"
+    default: "Someone"
+  YOUR_NAME: 
+    description: "Who to greet"
+    required: true
+    default: "Brian"
     
 runs:
   using: "docker"
